@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Kegiatan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="utama">
+    <h1>Daftar Kegiatan</h1>
+    <p>Klik untuk menambahkan daftar kegiatan</p>
+    <br>
+    <form name="bagian">
+      <input type="text" id="sub-bagian" placeholder="Tambahkan Daftar Kegiatan...">
+    </form>
+    <button id="tombol-tambah" class="tombol">Tambah</button>
+    <br>
+    <ol id="daftar"></ol>
+    <div id="tombol-pilihan" >
+      <button id="hapus" onclick="clearCompletedToDoItems()" class="tombol-hapus">hapus</button>
+      <button id="reset" onclick="emptyList()" class="tombol-reset">mulai lagi</button>
+      <button id="simpan" onclick="saveList()" class="tombol-simpan">simpan</button>
+    </div>
+  </div>
+
+  <script src="scrip.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+body {
+  font-family: sans-serif;
+  background-image: url(foto\ pantai.jpg);
+  background-size: 150%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.utama {
+  background-color: aliceblue;
+  border-radius: 15px;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 300;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  
+}
+
+.utama h1 {
+  margin: 0;
+}
+
+.utama p {
+  font-style: italic;
+  color: #666;
+  margin: 5px 0;
+}
+
+.utama ol {
+  margin: 20px;
+}
+
+.utama ol li {
+  margin: 5px 0;
+  padding: 3px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.utama ol li:nth-child(even){
+  background-color: #ddd;
+}
+
+.utama .tombol {
+  margin: 10px 2px;
+  padding: 5px 20px;
+  border-radius: 15px;
+  background-color: #0093D5;
+  border: none;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  font-size: small;
+}
+
+.utama .tombol:hover {
+  cursor: pointer;
+  opacity: 0.75;
+  color: #666;
+}
+
+.utama input {
+  padding: 3px 6px;
+}
+
+.utama form {
+  display: inline-block;
+}
+
+#tombol-pilihan {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.utama #hapus {
+  font: rob;
+  background-color: red;
+  font-size: 15px;
+  font-size: medium;
+  color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+}
+
+.utama .tombol-hapus {
+  border-radius: 5px;
+}
+
+.utama .tombol-hapus:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.utama #reset {
+  background-color: #e9e62a;
+  font-size: 15px;
+  border-radius: 15px;
+}
+
+.utama .tombol-reset {
+  border-radius: 5px;
+}
+
+.utama .tombol-reset:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.utama #simpan {
+  background-color: green;
+  font-size: 15px;
+  color: #fff; ;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.utama .tombol-simpan {
+  border-radius: 5px;
+}
+
+.utama .tombol-simpan:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+@media only screen and (min-width: 1400px) {
+  .todo-wrapper {
+      width: 50%;
+  }
+
+  .todo-wrapper input {
+      width: 600px;
+  }
+  
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 750px) {
+  .todo-wrapper {
+      width: 75%;
+  }
+
+  .todo-wrapper input {
+      width: 400px;
+  }
+}
